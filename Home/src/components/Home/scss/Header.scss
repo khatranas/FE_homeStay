@@ -1,0 +1,49 @@
+.Header {
+  height: 71px;
+  line-height: 71px;
+  border-bottom: 1px solid #c4c4c4;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 0 4rem;
+
+  &_logo {
+    font-family: "Oleo Script Swash Caps", cursive;
+    font-size: 25px;
+    font-weight: 400;
+  }
+
+  &_menu {
+    display: flex;
+    gap: 40px;
+    li {
+      list-style: none;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: #000;
+      }
+
+      .active {
+        color: #0f298b;
+        font-weight: bold;
+      }
+    }
+  }
+
+  &_button {
+    background-color: #2549d3;
+    color: #fff;
+    padding: 10px 20px;
+    height: 40px;
+    border-radius: 6px;
+
+    cursor: pointer;
+
+    border: none;
+    font-weight: bold;
+  }
+}

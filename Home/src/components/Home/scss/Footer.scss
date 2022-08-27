@@ -1,0 +1,55 @@
+.footer {
+  width: auto;
+  margin-top: 10%;
+}
+
+.footer__container {
+  height: 300px;
+  color: #fff;
+  margin-top: 20px;
+  padding: 12px 0;
+  background-color: #0f298b;
+  display: flex;
+}
+
+.footer__content {
+  padding: 0 16px;
+  flex: 1;
+  margin-left: 6%;
+  /* flex: 1 làm cho = nhau hết cả 3 cột*/
+  /* dùng order để thay đổi thứ tự sắp xếp */
+}
+
+.footer__container-one {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  margin-top: 73px;
+  margin-bottom: 5%;
+}
+
+.footer__text-one-size {
+  font-size: 15px;
+  font-weight: 0;
+  font-family: "Nunito";
+  font-style: normal;
+  margin-top: auto;
+}
+
+.footer__text {
+  font-family: "Nunito";
+  font-style: normal;
+  font-size: 15px;
+  font-weight: 0;
+  margin-bottom: 5%;
+}
+
+.footer__container-header {
+  font-family: "Oleo Script";
+  font-style: italic;
+  font-size: 1.8rem;
+  font-weight: 800;
+  margin-top: 73px;
+  margin-bottom: 5%;
+}
